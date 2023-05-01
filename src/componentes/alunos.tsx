@@ -5,7 +5,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function createAluno(
   id: number,
@@ -19,7 +19,6 @@ const initialAlunos = [
   createAluno(1, 'Matheus', 'matheus@gmail.com'),
   createAluno(2, 'Lucas', 'lucas@gmail.com'),
   createAluno(3, 'Rafael', 'rafael@gmail.com'),
-  createAluno(4, 'Marcos Andrade', 'marcosAndrade_19@gmail.com'),
 ];
 
 export default function Alunos() {
@@ -60,7 +59,7 @@ export default function Alunos() {
 
   const handleEdit = (index: number) => {
     const aluno = alunos[index];
-    setAlunoForm({ id: aluno.id, name: aluno.name, email: aluno.email });
+    setAlunoForm({ id: aluno.id.toString(), name: aluno.name, email: aluno.email });
     setEditIndex(index);
   };
 
