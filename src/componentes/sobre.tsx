@@ -1,7 +1,7 @@
 export default function sobre(){
     return(
         <div className="body-sobre">
-            <div>
+            <div className="div-sobre">
                 <h1>Caso técnico</h1>
                 <h2>Objetivo:</h2>
                 <p>O objetivo da solução é organizar e proteger as informações sensíveis dos alunos.</p>

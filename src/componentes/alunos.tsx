@@ -65,7 +65,7 @@ export default function Alunos() {
 
   return(
     <div>
-      <form onSubmit={handleSubmit}>
+      <form className='form-cad-alunos' onSubmit={handleSubmit}>
         <label className='label' >
           Nome:
           <input className='input' type="text" name="name" value={alunoForm.name} onChange={handleFormChange} placeholder='Nome Completo'/>
@@ -79,7 +79,7 @@ export default function Alunos() {
       <TableContainer component={Paper}>
         <Table sx={{ maxWidth: 1200 }} aria-label="simple table">
           <TableHead>
-            <TableRow>
+            <TableRow className='form-lista'>
               <TableCell>Id</TableCell>
               <TableCell align="right">Nome</TableCell>
               <TableCell align="right">E-mail</TableCell>
