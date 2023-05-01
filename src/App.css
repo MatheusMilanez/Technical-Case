@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  margin: 0;
+}
+
+/*menu*/
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 98, 134);
+  box-shadow: 1px 1px 5px 1px rgb(56, 56, 56);
+  margin: 0 0 10px 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 10px 0 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+li Link {
+  text-decoration: none;
+}
+
+/*fim-menu*/
+
+/*Inputs alunos.tsx*/
+.label{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.input{
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.input:focus{
+  background-color:  rgb(0, 98, 134);
+  color: white;
+}
+
+.bnt{
+  width: 80px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bnt:hover{
+  background-color: rgb(4, 215, 4);
+}
+
+.bnt-atualizar{
+  width: 70px;
+  height: 35px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bnt-atualizar:hover{
+  background-color: rgb(4, 215, 4);
+}
+
+.bnt-excluir{
+  width: 70px;
+  height: 35px;
+  border: none;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bnt-excluir:hover{
+  background-color: rgb(127, 0, 0);
+}
+
+/*Fim*/
+
+/*Codigos da pagina home*/
+
+.body-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.body-home h1 {
+  font-size: 150px;
+  text-transform: uppercase;
+  color: rgb(0, 98, 134);
+}
+
+.body-home p{
+  text-transform: uppercase;
+  color: rgb(0, 98, 134);
+}
+
+/*FIM-Codigos da pagina home*/
+
+/*Codigos da pagina Sobre*/
+.body-sobre{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  margin-top: 20px;
+}
