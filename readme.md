@@ -13,4 +13,23 @@ De preferência, utilize as seguintes abordagens e tecnologias na construção d
 <p>O código deve ser versionado com Git, registrado em um repositório do GitHub e o link deve ser compartilhado.</p>
 
 
+### Link do Projeto na Vercel:
+<p>https://technical-case.vercel.app/</p>
+
+
+### Imagens do Projeto
+
+## Imagem 1
+
+![alt text](/public/home.png)
+
+## Imagem 2
+
+![alt text](/public/cadastro.png)
+
+## Imagem 3
+
+![alt text](/public/sobre.png)
+
+
 ### Desenvolvedor Matheus Milanez
